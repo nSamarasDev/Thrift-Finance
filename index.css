@@ -1,3 +1,18 @@
-.body {
-    
+:root {
+    --clr-primary-300: #f3eed9;
+    --clr-primary-400: #824936;
+}
+
+*,
+::before,
+::after {
+ box-sizing: boder-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
 }
