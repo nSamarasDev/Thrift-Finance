@@ -1,12 +1,25 @@
 :root {
     --clr-primary-300: #f3eed9;
     --clr-primary-400: #824936;
+
+    --clr-neutral-100: #fff;
+    --clr-neutral-900: #222C2A;  
+
+    ff-priamry: 'Roboto', sans-serif;
+    ff-accent: 'Playfair Display', serif;
 }
 
 *,
 ::before,
 ::after {
  box-sizing: boder-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.325rem;
+    line-height: 1.6;
 }
 
 body,
