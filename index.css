@@ -29,3 +29,15 @@ h3,
 p {
     margin: 0;
 }
+
+h1,
+h2,
+h3 {
+    font-family: var(--ff-accent);
+    font-weight: 900;
+    line-height: 1;
+}
+
+.bg-light { background-color: var(--clr-primary-300) ;}
+.bg-primary { background-color: var(--clr-primary-400) ;}
+.bg-dark { background-color: var(--clr-neutral-900) ;}
