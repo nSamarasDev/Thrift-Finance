@@ -74,11 +74,16 @@ section {
     .split {
         flex-direction: row;
     }
+
+    .split > * {
+        flex-basis: 100%;
+    }
+
+    .split > * + * {
+        margin-left: 2em;
+    }
 }
 
-.container--narrow {
-    max-width: 35rem;
-}
 
 .bg-light { 
     background-color: var(--clr-primary-300) ;
