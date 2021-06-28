@@ -38,6 +38,11 @@ h3 {
     line-height: 1;
 }
 
+.text-center {
+    text-align: center
+}
+
+header,
 section {
     padding: 3rem 0;
 
