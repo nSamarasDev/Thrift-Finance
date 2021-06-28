@@ -38,6 +38,33 @@ h3 {
     line-height: 1;
 }
 
-.bg-light { background-color: var(--clr-primary-300) ;}
-.bg-primary { background-color: var(--clr-primary-400) ;}
-.bg-dark { background-color: var(--clr-neutral-900) ;}
+section {
+    padding: 3rem 0;
+
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+.bg-light { 
+    background-color: var(--clr-primary-300) ;
+}
+
+.bg-primary {
+    color: var(--clr-neutral-100);
+     background-color: var(--clr-primary-400) ;
+    }
+
+.bg-dark {
+    color: var(--clr-neutral-100);
+     background-color: var(--clr-neutral-900) ;
+    }
+
+
+.bg-primary h2,
+.bg-dark h2 {
+    color: var(--clr-primary-200);
+}
+
